@@ -1,6 +1,8 @@
+# Site settings
 title: My GitHub Pages Site
 description: This is my awesome GitHub Pages site.
 theme: jekyll-theme-primer
 baseurl: "https://samwigglesw0rth.github.io/samwigglesw0rthZtM/"
 
-remote_theme: mmistakes/minimal-mistakes
+# GitHub Pages settings
+remote_theme: mmistakes/minimal-mistakes # If you're using a remote theme
