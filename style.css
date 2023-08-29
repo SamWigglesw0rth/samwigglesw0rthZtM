@@ -1,0 +1,98 @@
+/*Selector {
+	Property: Value;
+}*/
+
+/*all commands are done in ordered lay out*/
+/*!important makes it so no code overides your command (order)*/
+
+
+
+/* The *{} is used for "everything" */
+header {
+	text-align: center;
+}
+
+
+header>h2 {
+	color: #F59E40;
+	border: 3px solid rgba(46, 119, 155, 1.0);
+	display: inline-block;
+	text-align: center;
+	padding: 10px 50px;
+	cursor: crosshair;
+
+}
+
+h2{
+	color: #F59E40;
+	text-align: center;
+/*	border: 8px solid rgba(46, 119, 155, 1.0);*/
+	cursor: pointer;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+p {
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 20px;
+/*	font-style: italic;*/
+	font-weight: 800;
+	font-size: 80%;
+/*	font-family: 'Kablammo', cursive;*/
+} 
+
+span {
+	font-size: 21px;
+}
+
+.webtext {
+	border: 5px dashed skyblue;
+}
+
+#div1:hover {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+#div2:hover {
+	background: rgba(0, 255, 0, 0.2);
+}
+
+
+section>img {
+	float: left;
+}
+
+
+footer {
+	clear: both;
+	text-align: left;
+	text-decoration: underline;
+	color: black;
+	font-family: 'kablammo', cursive; 
+}
+
+img {
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.boxmodel {
+	border: 5px solid darkred;
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+	margin: 0px 5px;
+}

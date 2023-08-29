@@ -1,0 +1,48 @@
+body,
+html { 
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+  background: url(https://wallpaper.dog/large/5439940.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+	font-size: 50px;
+	color: #58b1ff	;
+}
+
+.buffer {
+	height: 700px;
+}
+
+hr {
+	border-color: #dd8fff;
+	border-width: 3px; 
+	max-width: auto;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 100px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #dd8fff;
+	border-color: #dd8fff;
+	transition: all 1s;
+}
+
+.btn-primary:hover {
+	background-color: #58b1ff;
+	border-color: #58b1ff;
+	transform: scale(1.1);
+}
+
+.btn-xl {
+	padding: 15px 25px;
+}

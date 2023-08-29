@@ -1,0 +1,56 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 30px;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 190px;
+	text-align: center;
+	box-shadow: 3px 3px 4px #888888;
+	margin-top: 5px;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.spin {
+	transition: all 2s;
+	transition-timing-function: ease;
+}
+
+.spin:hover {
+	transform: rotate(360deg);
+}
+
+.ele {
+	transition: transform 1s;
+}
+
+.ele:hover {
+	transform: rotate(25deg) scale(1.1) translate(50px);
+}
+
+.monke {
+	transition: transform 1s;
+}
+
+.monke:hover {
+	transform: translate(-250px, -500px);
+}
