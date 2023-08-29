@@ -1,0 +1,10 @@
+# Site settings
+title: My GitHub Pages Site
+description: This is my awesome GitHub Pages site.
+theme: jekyll-theme-primer
+baseurl: "" # For example, if your site is hosted at "username.github.io/repository", set this to "/repository"
+
+# GitHub Pages settings
+remote_theme: owner/repo # If you're using a remote theme
+
+# Other settings...
