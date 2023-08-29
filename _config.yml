@@ -5,6 +5,6 @@ theme: jekyll-theme-primer
 baseurl: "https://samwigglesw0rth.github.io/samwigglesw0rthZtM/" 
 
 # GitHub Pages settings
-# remote_theme: # If you're using a remote theme
+ remote_theme:  # If you're using a remote theme
 
 # Other settings...
